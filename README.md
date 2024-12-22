@@ -11,7 +11,7 @@ void speedControl() {
     analogWrite(ENB, right_motor_speed);
 }
 
-void motorControl() {
+void motorControl() { 
     if (error > 0) {
         robotTurnLeft();
     } else if (error < 0) {
